@@ -1,0 +1,10 @@
+apply from: '../gradle/common_gradle.gradle'
+
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    api project(":app")
+    api 'com.wuxiaolong.pullloadmorerecyclerview:library:1.1.2'
+    api 'com.github.chrisbanes:PhotoView:2.1.3'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+}

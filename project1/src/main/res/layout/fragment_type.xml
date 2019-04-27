@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f0f0f0"
+            android:padding="8dp"
+            android:text="初来乍到"
+            android:textColor="#333333"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <TextView
+                android:id="@+id/tv_xinshou"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:drawableTop="@drawable/ic_xinshou"
+                android:text="新手报道"
+                android:drawablePadding="6dp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/tv_guanshui"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:drawableTop="@drawable/ic_guanshui"
+                android:layout_marginLeft="20dp"
+                android:text="灌水区"
+                android:drawablePadding="6dp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/tv_qiandao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:drawableTop="@drawable/ic_qiandao"
+                android:layout_marginLeft="20dp"
+                android:text="签到区"
+                android:drawablePadding="6dp"
+                android:padding="10dp"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f0f0f0"
+            android:padding="8dp"
+            android:text="专区"
+            android:layout_marginTop="10dp"
+            android:textColor="#333333"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <TextView
+                android:id="@+id/tv_caipiao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:drawableTop="@drawable/ic_caipiao"
+                android:text="CP专区"
+                android:drawablePadding="6dp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/tv_jinghua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:drawableTop="@drawable/ic_jinghua"
+                android:text="精华区"
+                android:drawablePadding="6dp"
+                android:layout_marginLeft="20dp"
+                android:padding="10dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f0f0f0"
+            android:padding="8dp"
+            android:text="交流"
+            android:layout_marginTop="10dp"
+            android:textColor="#333333"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <TextView
+                android:id="@+id/tv_fenxiang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:drawableTop="@drawable/ic_fenxiang"
+                android:text="技术分享"
+                android:drawablePadding="6dp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/tv_jiaoliu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:drawableTop="@drawable/ic_jiaoliu"
+                android:text="经验交流"
+                android:layout_marginLeft="20dp"
+                android:drawablePadding="6dp"
+                android:padding="10dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

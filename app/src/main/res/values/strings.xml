@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Game</string>
+
+    <string name="AutoUpdateprovide">com.game.provider</string>
+    <string name="no_config_file">请检查assets文件夹中是否有config.properties配置文件</string>
+    <string name="app_package_name">com.a.p</string>
+    <string name="updating">由于更新时间较长，请耐心等待......</string>
+    <string name="update_nomal_text">最新版本：%1$s\n目前您的版本为：%2$s，是否安装？</string>
+    <string name="update_force_text">最新版本：%1$s\n重大升级，请立即安装，此次升级需要花费较长时间，请在WI-FI环境下升级</string>
+    <string name="update_size">%1$s/%2$s</string>
+    <string name="hybrid_exit_app">再按一次回车键，将自动关闭应用</string>
+    <string name="app_no_data_tips">暂无记录</string>
+</resources>

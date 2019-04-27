@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.youth.banner.Banner xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:textColor="#333"
+                    android:text="历史上的今天" />
+
+                <com.android.tuan.views.TextSwitchView
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/tv_history_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="111111111111111111111144444444444444444444444444444444444555555555555555555555" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_one"
+                    style="@style/fragment_home_1"
+                    android:drawableTop="@drawable/ic_home_art"
+                    android:text="历史开奖" />
+
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff" />
+
+                <TextView
+                    android:id="@+id/tv_five"
+                    style="@style/fragment_home_1"
+                    android:drawableTop="@drawable/ic_shouqi"
+                    android:text="走势图" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#ffffff" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_three_1"
+                    style="@style/fragment_home_1"
+                    android:background="@drawable/ic_home_wx"
+                    android:text="#驾考(科目一)" />
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff" />
+
+                <TextView
+                    android:id="@+id/tv_three_2"
+                    style="@style/fragment_home_1"
+                    android:background="@drawable/ic_home_wx"
+                    android:text="#驾考(科目四)" />
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff" />
+
+                <TextView
+                    android:id="@+id/tv_four"
+                    style="@style/fragment_home_1"
+                    android:background="@drawable/ic_home_xiaohua"
+                    android:text="#笑话" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#ffffff" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_two"
+                    style="@style/fragment_home_1"
+                    android:background="@drawable/ic_home_yishu"
+                    android:text="#艺术" />
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff" />
+
+                <TextView
+                    android:id="@+id/tv_six"
+                    style="@style/fragment_home_1"
+                    android:background="@drawable/ic_home_yunqi"
+                    android:text="#运气" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#ffffff" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_seven"
+                    style="@style/fragment_home_1"
+                    android:background="@drawable/ic_home_manhua_fang"
+                    android:text="#漫画" />
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff" />
+
+                <TextView
+                    android:id="@+id/tv_eight"
+                    style="@style/fragment_home_1"
+                    android:background="@drawable/ic_home_guigushi_new"
+                    android:text="奇闻轶事" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#ffffff" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_nine"
+                    style="@style/fragment_home_1"
+                    android:background="@drawable/ic_home_fuli_new"
+                    android:text="#数独" />
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff" />
+
+                <TextView
+                    android:id="@+id/tv_ten"
+                    style="@style/fragment_home_1"
+                    android:drawableTop="@drawable/ic_h_xiaohua"
+                    android:text="#故事"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#ffffff" />
+        </LinearLayout>
+    </ScrollView>
+</layout>

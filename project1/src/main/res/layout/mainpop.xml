@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/pop"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_0"
+                style="@style/PopText"
+                android:clickable="false"
+                android:padding="10dp"
+                android:text="新手报道" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:background="#cdcdcd" />
+
+            <TextView
+                android:id="@+id/tv_1"
+                style="@style/PopText"
+                android:clickable="false"
+                android:padding="10dp"
+                android:text="签到区" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:background="#cdcdcd" />
+
+            <TextView
+                android:id="@+id/tv_2"
+                style="@style/PopText"
+                android:clickable="false"
+                android:padding="10dp"
+                android:text="彩票专区" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:background="#cdcdcd" />
+
+            <TextView
+                android:id="@+id/tv_3"
+                style="@style/PopText"
+                android:clickable="false"
+                android:padding="10dp"
+                android:text="灌水区" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:background="#cdcdcd" />
+
+            <TextView
+                android:id="@+id/tv_4"
+                style="@style/PopText"
+                android:clickable="false"
+                android:padding="10dp"
+                android:text="精华区" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:background="#cdcdcd" />
+
+            <TextView
+                android:id="@+id/tv_5"
+                style="@style/PopText"
+                android:clickable="false"
+                android:padding="10dp"
+                android:text="经验交流" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:background="#cdcdcd" />
+
+            <TextView
+                android:id="@+id/tv_6"
+                style="@style/PopText"
+                android:clickable="false"
+                android:padding="10dp"
+                android:text="技术分享" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dip"
+                android:background="#cdcdcd" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,9 @@
+ext{
+    //build版本
+    sdkVersion = 28
+    toolsVersion = "28.0.3"
+    //最小sdk版本
+    minVersion = 19
+    //当前sdk版本
+    tagVersion = 28
+}

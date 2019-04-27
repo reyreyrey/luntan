@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_quest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textColor="#333"
+                android:textSize="18dp"
+                tools:text="问题" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <WebView
+                            android:visibility="gone"
+                            android:id="@+id/wv_image"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                        <ImageView
+                            android:visibility="gone"
+                            android:id="@+id/iv_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </RelativeLayout>
+
+                    <CheckBox
+                        android:id="@+id/rb_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/selector_check"
+                        android:drawablePadding="6dp"
+                        android:padding="8dp"
+                        android:textColor="#333"
+                        android:textSize="16dp"
+                        tools:text="选项1" />
+
+                    <CheckBox
+                        android:id="@+id/rb_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/selector_check"
+                        android:drawablePadding="6dp"
+                        android:padding="8dp"
+                        android:textColor="#333"
+                        android:textSize="16dp"
+                        tools:text="选项1" />
+
+                    <CheckBox
+                        android:id="@+id/rb_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/selector_check"
+                        android:drawablePadding="6dp"
+                        android:padding="8dp"
+                        android:textColor="#333"
+                        android:textSize="16dp"
+                        tools:text="选项1" />
+
+                    <CheckBox
+                        android:id="@+id/rb_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/selector_check"
+                        android:drawablePadding="6dp"
+                        android:padding="8dp"
+                        android:textColor="#333"
+                        android:textSize="16dp"
+                        tools:text="选项1" />
+
+                    <TextView
+                        android:id="@+id/tv_see_jieshi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="6dp"
+                        android:padding="5dp"
+                        android:text="查看解释"
+                        android:textColor="#333"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/tv_jieshi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="6dp"
+                        android:textColor="#333"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:text="提交" />
+    </LinearLayout>
+</layout>

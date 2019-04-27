@@ -1,0 +1,55 @@
+apply from: '../config/lib_module.gradle'
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    api dep.appcompat
+    api dep.design
+    api dep.glide
+    //okgo http请求框架
+    api(dep.okgo)
+    //bmob云
+    //    compile(dep.bmob) {
+    //        exclude group: 'com.squareup.okio'
+    //        exclude module: 'okio'
+    //    }
+    //lean云
+    //    compile(dep.leanCloud) {
+    //        exclude group: 'com.squareup.okio'
+    //        exclude module: 'okio'
+    //    }
+    //沉浸式状态栏
+    api dep.barlibrary
+    //轮播图
+    api dep.bgabanner
+    //极光
+    api dep.jpush
+    api dep.jcore
+    //水平数字进度条
+    api dep.numberprogressbar
+    //x5内核
+    //listview的adapter
+    api dep.ListViewBaseAdapter
+    api dep.rxjava2
+    api dep.rxandroid2
+    api dep.viewcore
+    //圆形imageview
+    api dep.circleimageview
+    //loading动画
+    api dep.AndroidSpinKit
+    //leancloud实时通信
+    //    compile(dep.avoscloudPush) { transitive = true }
+    api project(':leancloudchatkit')
+    //下拉刷新
+    api dep.SmartRefreshLayout
+    api dep.SmartRefreshHeader
+    api dep.gson
+
+    api dep.imagepicker
+    api dep.eventbus
+    api dep.circleDialog
+    api dep.banner
+
+    api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.46'
+    api 'com.github.DingMouRen:LayoutManagerGroup:1e6f4f96eb'
+    api 'com.yhd.hdswfplayer:hdswfplayer:1.0.0'
+}

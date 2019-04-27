@@ -1,0 +1,19 @@
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url "http://mvn.leancloud.cn/nexus/content/repositories/public"
+        }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.1'
+    }
+}
+
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+apply from: 'config/dependencies.gradle'

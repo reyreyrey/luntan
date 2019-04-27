@@ -1,0 +1,1 @@
+include ':app', ':project1', ':leancloudchatkit', ':avoscloud-sdk', ':avoscloud-push'

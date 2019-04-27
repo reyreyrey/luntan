@@ -1,0 +1,46 @@
+android{
+    signingConfigs {
+        signingConfig {
+            keyAlias 'key0'
+            keyPassword 'a123456789'
+            storeFile file('key709.jks')
+            storePassword 'a123456789'
+            v2SigningEnabled false
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.signingConfig
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.signingConfig
+        }
+    }
+}
+ext{
+    //app名字
+    appName = "709社区"
+    //app启动页图片(必须在drawable文件夹中)
+    splashPic = "ic_splash_3"
+    //bmob key
+    bmobKey = ""
+    //app包名
+    packagename = "com.tech.necelogi"
+    //推送key
+    jpush_appkey = "c9f349e265a992599a620e05"
+    //app版本名
+    autoVersionName = "1.2.4"
+    //主题色
+    themeColor = "#342e32"
+    //接口检测的地址
+    interface_check_url = "http://59.110.228.73/mj/interface/control.php?appid=7"
+    //应用图标
+    applogo = "@mipmap/logo_709"
+    //显示正常splash的时间
+    show_splash_time = "2018-01-06 17:00:00"
+}
+

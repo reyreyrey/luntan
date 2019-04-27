@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar" />
+
+        <com.android.mj.view.NoScrollViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#e7e4e4" />
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fffdfd"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_1"
+                style="@style/mainRadioButtonStyle"
+                android:drawableTop="@drawable/selector_index"
+                android:text="首页" />
+
+            <RadioButton
+                android:id="@+id/rb_2"
+                style="@style/mainRadioButtonStyle"
+                android:drawableTop="@drawable/selector_tuijian"
+                android:text="社区" />
+
+            <ImageView
+                android:id="@+id/img_fabu"
+                style="@style/mainRadioButtonStyle"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_main_fabu" />
+
+            <RadioButton
+                android:id="@+id/rb_3"
+                style="@style/mainRadioButtonStyle"
+                android:drawableTop="@drawable/selector_faxian"
+                android:text="消息" />
+
+            <RadioButton
+                android:id="@+id/rb_4"
+                style="@style/mainRadioButtonStyle"
+                android:drawableTop="@drawable/selector_mine"
+                android:text="我的" />
+
+        </RadioGroup>
+    </LinearLayout>
+</layout>

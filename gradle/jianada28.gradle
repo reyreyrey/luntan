@@ -1,0 +1,46 @@
+android{
+    signingConfigs {
+        signingConfig {
+            keyAlias 'key123'
+            keyPassword 'a1234567'
+            storeFile file('test111.jks')
+            storePassword 'a1234567'
+            v2SigningEnabled false
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.signingConfig
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.signingConfig
+        }
+    }
+}
+ext{
+    //app名字
+    appName = "加拿大28"
+    //app启动页图片(必须在drawable文件夹中)
+    splashPic = "ic_splash_2"
+    //bmob key
+    bmobKey = ""
+    //app包名
+    packagename = "com.project.jianada"
+    //推送key
+    jpush_appkey = "e647345d4786e9113d680347"
+    //app版本名
+    autoVersionName = "1.1.2"
+    //主题色
+    themeColor = "#342e32"
+    //接口检测的地址
+    interface_check_url = "http://59.110.228.73/mj/interface/control.php?appid=jianada28"
+    //应用图标
+    applogo = "@mipmap/logo_jianada28"
+    //显示正常splash的时间
+    show_splash_time = "2018-03-24 18:00:00"
+}
+

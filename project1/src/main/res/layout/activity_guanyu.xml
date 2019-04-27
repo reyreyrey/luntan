@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:textColor="#333333"
+            android:text="我们是一群积极、向上的青年，非常感谢您使用这款软件，我们会再接再厉，努力给您提供一款好用安全的社区平台。"/>
+
+    </LinearLayout>
+</layout>
